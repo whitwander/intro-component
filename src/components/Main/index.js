@@ -1,6 +1,6 @@
 import Form from "../Form"
 
-const Background = () => {
+const Main = () => {
     return (
         <div className="bg-background h-full md:h-screen text-white flex flex-col lg:flex-row lg:justify-center lg:items-center lg:gap-10 xl:px-40">
             <img src="/images/bg-intro-mobile.png" className="absolute h-screen z-0 w-80 lg:hidden" alt="bg mobile" />
@@ -22,4 +22,4 @@ const Background = () => {
     )
 }
 
-export default Background
+export default Main

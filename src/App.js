@@ -1,9 +1,9 @@
-import Background from './components/Background';
+import Main from './components/Main';
 
 function App() {
   return (
     <>
-      <Background />  
+      <Main />  
     </>
   );
 }
